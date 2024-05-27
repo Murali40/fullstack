@@ -1,0 +1,62 @@
+ /* function myFunction(params)  {
+
+    
+   if (true) {
+    // college life
+        var num = 10;  // college best friend
+        let n = ' murali' // college friend
+        console.log(num, name);
+
+    } 
+    // console.log(num, )
+
+// myFunction()
+//  scope 
+// global scope -  wherever access 
+//function scope - best friend
+//  block scope - just a friend */
+
+/* let num1 = 10;
+let num2 = 15;
+let num3 = 5;
+
+let min = -1;
+if(num1<num2 && num1 < num3 ) {
+    min = num1;
+} else if (num2<num1 && num2 < num3) {
+    min = num2
+} else {
+    min = num3;
+}
+ console.log(min); */
+
+ /*let arr = [1, , 3, 4, 5,6, 7,8,9]
+
+ // for (let ind = 0; ind < arr.length; ind++) {
+    console.log(arr[ind])
+
+ for (let ind in arr) {
+    console.log(arr[ind])
+ }
+ for( let val of arr) {
+    consolele.log(val)
+ }
+
+ arr.forEach(function (val) {
+    console.log(val)
+ }) */
+
+ /*const obj = {
+  name : 'murali',  
+  age : 30
+ }
+ let keys = Object.keys(obj)
+ console.log(keys);
+
+ for(let key of keys) {
+    console.log(key, obj[key]);
+ }
+//  for(let key in obj) {
+   // console.log(key, obj[key]); */
+
+   
