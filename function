@@ -1,0 +1,89 @@
+/* const obj = {
+
+    name : 'rithvik',
+    age : '3',
+      friends: ['aadharsha',  'mouli',  ' aaruth'],
+    gender : 'male',
+    address : {
+        native : 'ravanapuram',
+        city : 'udt',
+        state: 'tamilnadu'
+    }
+}
+//console.log(obj.age);
+//console.log(obj['age'])
+
+let key = 'friends'
+
+// console.log(obj[key])
+
+//console.log(obj.friends[1])
+console.log(obj.friends[0])
+
+console.log(obj) */
+
+// keyword functionName (arguments) {
+// statements
+    // return result;  // sending the outcome of this function to the caller
+
+//}
+/* function add (num1, num2) {
+    console.log(num1, num2)
+    return num1 + num2;
+}
+console.log(add(100, 233));
+ 
+function sub (num1, num2) {
+    console.log(num1, num2)
+    return num1 - num2;
+}
+console.log(sub(100, 233));
+
+function mul (num1, num2) {
+    console.log(num1, num2)
+    return num1 * num2;
+}
+console.log(mul(10, 233)); */
+/*
+// function add (num1, num2) {
+    
+    return num1 + num2;
+}
+// console.log(add(10, 23));
+//let result = add(10,25)
+//console.log(result)
+ //const square = result * result
+// console.log(square)
+*/
+
+// Named function
+function add (num1, num2) {
+    const result = num1+ num2
+    return result;
+}
+console.log(add(10, 20));
+
+// anaymous func
+const sub = function add (num1, num2) {
+    const result = num1 - num2
+    return result;
+}
+console.log(sub(10, 20))
+
+// arrow func
+const mul = (num1, num2) => num1 * num2;
+    // const result = num1 * num2
+    // return num1 *num2
+     console.log(mul(3, 7))
+const square = num => num * num
+console.log(square(5))
+console.log(square(5.5))
+
+// IIFE - immediately invoked function expression
+// reuse,
+
+const result = (function(num1, num2) {
+    console.log (num1, num2)
+    return  (num1 / num2)
+} ) (20, 5);
+    console.log(result);
